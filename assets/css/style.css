@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Fredericka';
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: whitesmoke;
+margin: 0px;
+}
+
+header {
+    background-image: url("../images/Lev3_2_css-einführung_box-model_img.jpg");
+    background-size: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Fredericka';
+    color: whitesmoke;
+    padding: 8px 0 0 30px;
+    margin: 0px;
+}
+h2 {
+    font-family: 'Fredericka';
+    color: whitesmoke;
+    text-align: center;
+}
+
+header section article {
+    margin:0 auto;
+    text-align: center;
+    width:300px;
+    margin-top: 50px;
+}
+
+header section article p {
+    color: whitesmoke;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+header section article a {
+    color: whitesmoke;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    padding: 6px 25px 6px 25px;
+}
+
+
+header nav {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+header div nav ul li {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    list-style: none;
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Fredericka';
+    font-size: 20px;
+}
+
+
+section article {     
+
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    margin-top: 40px;
+
+}
+
+section article div {
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+    border: 3px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section article div a{
+    text-decoration: none;
+        color: black;
+}
+
+footer {
+    background-color: darkslategrey;
+    font-family:'OpenSans';
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+
+}
+footer section {
+    text-align: left;
+    margin-left: 15px;
+
+}
+footer section p {
+    width: 600px;
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+
+footer section a {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    padding: 6px 25px 6px 25px;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer nav a{
+    color: whitesmoke;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 20px;
+}
